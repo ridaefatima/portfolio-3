@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="bg">
+    
+    <div class="head">
+        <nav class="header">
+            <ul class="dropdown-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#extra">Extra</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="home">
+        <div class="image-text-container">
+            <div class="image-container">
+              <img src="rida.jpg" alt="Image">
+            </div>
+            <div class="text-container">
+              <div class="name">RIDA E FATIMA</div>
+              <div class="extra">Aspiring Computer Engineer</div>
+              <div class="resume"> 
+                <a href="ridae_fatima (2).pdf">
+                    <button id="resume">Resume</button>
+                </a>
+          </div>
+            </div>
+
+                </div>
+            
+       
+       
+    </section>
+
+    <section id="skills" class="skills">
+        <h1 class="skill-h">Skills</h1>
+        <h2 class="skilledit">Languages:</h2>
+        <div class="icon-container">
+            <img src="java1.svg" alt="" width="40" height="40" class="icon">
+            <img src="js.svg" alt="" width="40" height="40" class="icon">
+            <img src="clang.svg" alt="" width="40" height="40" class="icon">
+            <img src="matlab.svg" alt="" width="40" height="40" class="icon">
+            <img src="python.svg" alt="" width="40" height="40" class="icon">
+            
+        </div>
+        <h2 class="skilledit">Other Technologies & Frameworks:</h2>
+        <div class="icon-container">
+            <img src="html5.svg" alt="" width="40" height="40" class="icon">
+            <img src="css3.svg" alt="" width="40" height="40" class="icon">
+            <img src="react.svg" alt="" width="40" height="40" class="icon">
+        </div>
+        <h2 class="skilledit">Soft Skills:</h2>
+        <ul>
+            <li>Attention to Detail</li>
+            <li>Teamwork</li>
+            <li>Working Under Time Constraints</li>
+            <li>Working Under Pressure</li>
+            <li>Tutoring</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="experience">
+        <h1>Experience</h1>
+        <div class="anotha">
+            <div class="experiencecont left">
+                <h2>Headstarter AI</h2>
+                <h3>July 2024 - Sept 2024</h3>
+                <ul>
+                    <li>Built 5+ AI apps using Next.js, Azure OpenAI, Firebase, and Vercel.</li>
+                    <li>Attended and participated in weekly in-person hackathons and collaborated with teammates and Headstarter AI professionals</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="anotha">
+            <div class="experiencecont right">
+                <h2>Codedex Hackathon</h2>
+                <h3>July 2024</h3>
+                <ul>
+                    <li>Created a website for a stoop sale owner in the span of 24 hours.</li>
+                    <li>Learned how to design and develop a website according to specific client requirements.</li>
+                    <li>Gained a foundational understanding of design priorities and best practices.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="anotha">
+            <div class="experiencecont left">
+                <h2>Communications & Controls Member at Combat Crafts</h2>
+                <h3>Oct 2024 - Present</h3>
+                <ul>
+                    <li>Set up communication between devices using ROS2 Humble, enabling seamless integration of project components over a network</li>
+                    <li>Enabled seamless rover operation through a game controller for intuitive and precise handling.</li>
+                    <li>Integrated Arduino and Raspberry Pi to enhance control precision</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="anotha">
+            <div class="experiencecont right">
+                <h2>Software Team Member at Toronto MetRobotics</h2>
+                <h3>Oct 2024 - Present</h3>
+                <ul>
+                    <li>Developed a Gstreamer and GTK-based GUI for the rover's camera system.</li>
+                    <li>Utilized Python and C++ to ensure high performance and usability.</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card-content">
+                    <h2 class="name2">Rover Control System</h2>
+                    <p class="description">Engineered a rover control system with a video game controller, using PySocket and WebSocket for real-time arm and movement control in Python. Designed an interactive web UI with Blender, Three.js, and React for seamless visualization and control through WebSocket, primarily coded in JavaScript.</p>
+                    <a href="https://github.com/ridaefatima/RoverControlsSystem">
+                    <button class="button">View It</button>
+                </a>
+                    </div>
+                    </div>
+                <div class="swiper-slide">
+                    <div class="card-content">
+                        <h2 class="name2">AI Flashcard App</h2>
+                        <p class="description">Collaborated with a team to develop an AI-powered flashcard app with Next.js, utilizing OpenRouter and Firebase for real-time flashcard creation and management. Implemented Clerk for authentication and Firebase for secure data storage. Integrated Stripe for subscription management with multiple pricing tiers and deployed on Vercel for scalability.</p>
+                        <a href="https://github.com/shahmeer-irfan/AI-flashcard-app">
+                            <button class="button">View It</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card-content">
+                        <h2 class="name2">Customisable Service AI</h2>
+                        <p class="description">Collaborated with a team to develop a customizable AI chatbot using Next.js and TypeScript. Integrated Firebase Authentication for secure user management and used RAG for dynamic responses, fine-tuning with user datasets.</p>
+                        <a href="https://github.com/BurhanCantCode/YapperAI">
+                        <button class="button">View It</button>
+                        </a>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="card-content">
+                        <h2 class="name2">Pantry Tracker</h2>
+                        <p class="description">Engineered a pantry management system with full CRUD functionality in Next.js and React. Integrated Groq for AI recipe suggestions, Firebase for user authentication and data management, and Postman for API testing.</p>
+                        <a href="https://github.com/ridaefatima/Pantry_Tracker">
+                        <button class="button">View It</button>
+                        </a>
+                        </div>
+                        </div>
+                        
+                                
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Navigation -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        </div>
+                        </section>
+                        
+
+                            <section id="extra" class="extra">
+                                <div class="extra-cont">
+                                <h1>Extra</h1>
+                                <h2>Inspiration</h2>
+                               <p>My aspiration to become a computer engineer is deeply rooted in my fascination with how technology has the power to redefine entire eras. Witnessing the transformative impact of innovations—from the dawn of the internet to the rise of artificial intelligence—has shown me how technology can revolutionize daily life, reshape industries, and drive societal progress. </p> 
+    <h2>Future Plans</h2>
+    
+    <p>As a second-year student at Toronto Metropolitan University (TMU), Ontario, Canada, my immediate goal is to acquire comprehensive skills in full-stack development. I am passionate about the ability to independently create and manage applications. Following the completion of my bachelor’s degree, I intend to further my expertise by specializing in artificial intelligence (AI), aiming to contribute to advancements in this cutting-edge field.</p>
+    </div> 
+    
+    
+                            </section>
+
+                            <section id="contact">
+                                <div class="formflex">
+                                    <div class="form">
+                                        <form action="https://formspree.io/f/xrbzejgw" method="POST">
+                                            <h1>Contact Me</h1>
+                                            <label for="name" class="stylish">Name:</label>
+                                            <input type="text" id="nme" name="name" required><br><br>
+                                            <label for="email" class="stylish">Email:</label>
+                                            <input type="email" id="email" name="email" required><br><br>
+                                            <label for="message" class="stylish">Message:</label>
+                                            <textarea id="message" name="message" rows="1" required></textarea><br><br>
+                                            <button type="submit" class="butt">Send Message</button>
+                                        </form>
+                                    </div>
+                                </div><br>
+
+                            <div class="contacts">
+                                <div class="contacts-c">
+                                    <a href="https://www.instagram.com/crispychickennuggets5/">
+                                        <img src="insta.svg" alt="" width="40" height="40" class="icon">
+                                    </a>
+                                    <a href="https://github.com/ridaefatima">
+                                        <img src="git.svg" alt="" width="40" height="40" class="icon">
+                                    </a>
+                                    <a href="https://x.com/emogirlrida">
+                                        <img src="twit.svg" alt="" width="40" height="40" class="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                        
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var swiper = new Swiper(".mySwiper", {
+                                    effect: "cube",
+                                    grabCursor: true,
+                                    cubeEffect: {
+                                        shadow: true,
+                                        slideShadows: true,
+                                        shadowOffset: 20,
+                                        shadowScale: 0.94,
+                                    },
+                                    pagination: {
+                                        el: ".swiper-pagination",
+                                        clickable: true,
+                                    },
+                                    navigation: {
+                                        nextEl: ".swiper-button-next",
+                                        prevEl: ".swiper-button-prev",
+                                    },
+                                    on: {
+                                        init: function () {
+                                            updatePagination();
+                                        },
+                                        paginationUpdate: function () {
+                                            updatePagination();
+                                        }
+                                    }
+                                });
+                        
+                                function updatePagination() {
+                                    var bullets = document.querySelectorAll('.swiper-pagination-bullet');
+                                    bullets.forEach(function(bullet) {
+                                        bullet.style.backgroundColor = 'pink';
+                                        bullet.style.opacity = '0.7';
+                                    });
+                        
+                                    var activeBullet = document.querySelector('.swiper-pagination-bullet-active');
+                                    if (activeBullet) {
+                                        activeBullet.style.backgroundColor = 'pink';
+                                        activeBullet.style.opacity = '1';
+                                    }
+                        
+                                    document.querySelector('.swiper-button-next').style.color = 'pink';
+                                    document.querySelector('.swiper-button-prev').style.color = 'pink';
+                                }
+                            });
+                        
+                            document.addEventListener('DOMContentLoaded', function () {
+            const skillsSection = document.querySelector('#skills');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                    } else {
+                        entry.target.classList.remove('animate');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            observer.observe(skillsSection);
+        });
+      
+        document.addEventListener('DOMContentLoaded', function () {
+            const experienceContainers = document.querySelectorAll('.experiencecont');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (entry.target.classList.contains('left')) {
+                            entry.target.classList.add('slideInFromLeft');
+                        } else if (entry.target.classList.contains('right')) {
+                            entry.target.classList.add('slideInFromRight');
+                        }
+                    } else {
+                        if (entry.target.classList.contains('left')) {
+                            entry.target.classList.remove('slideInFromLeft');
+                        } else if (entry.target.classList.contains('right')) {
+                            entry.target.classList.remove('slideInFromRight');
+                        }
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            experienceContainers.forEach(container => {
+                observer.observe(container);
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const extraSection = document.querySelector('#extra');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                    } else {
+                        entry.target.classList.remove('animate');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            observer.observe(extraSection);
+        });
+                        </script>
+                        
+                      </body>
+                      </html>  
